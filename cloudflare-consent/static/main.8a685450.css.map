@@ -1,0 +1,15 @@
+{
+    "version":3,
+    "file":"cloudflare-consent/static/main.8a685450.css",
+    "mappings":"AAAA,KACE,QACF",
+    "sources":[
+        "index.css"
+    ],
+    "sourcesContent":[
+        "body {\n  margin: 0;\n}"
+    ],
+    "names":[
+
+    ],
+    "sourceRoot":""
+}
