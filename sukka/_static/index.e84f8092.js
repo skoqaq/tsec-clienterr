@@ -1,3 +1,5 @@
+console.log("原网页：https://ip.skk.moe/ANY");
+console.log("网页快照：ERROR");
 function e(e, t, n, r) {
 	Object.defineProperty(e, t, {
 		get: n,
