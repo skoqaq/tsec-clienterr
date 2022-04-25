@@ -86,7 +86,7 @@ body {
 
 
 
-/*Cloudflare Custom Error Page*/
+/* Cloudflare Custom Error Page */
 
 
 
@@ -99,7 +99,7 @@ body {
     line-height: 1.6em;
     margin: 20px auto;
     max-height: 150px;
-    width: 75%;
+    width: 25%;
     font-family: "Menlo", "Monaco", "Andale Mono", "lucida console",
       "Courier New", monospace;
     overflow-x: auto;
