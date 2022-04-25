@@ -81,3 +81,41 @@ body {
 .text-color {
     color: #0061fc;
 }
+
+
+
+
+
+/*Cloudflare Custom Error Page*/
+
+
+
+.error-trace {
+    background: #fff;
+    border: 0;
+    border: 3px solid #e5e5e5;
+    color: #666;
+    font-size: 13px;
+    line-height: 1.6em;
+    margin: 20px auto;
+    max-height: 150px;
+    width: 75%;
+    font-family: "Menlo", "Monaco", "Andale Mono", "lucida console",
+      "Courier New", monospace;
+    overflow-x: auto;
+    padding: 5px 9px;
+    text-align: left;
+    word-break: break-word;
+  }
+
+  .error-trace h1 {
+    font-size: inherit;
+    margin: 0;
+  }
+
+  .error-trace ul {
+    border: none;
+    padding: 0;
+    text-align: left;
+    font-size: inherit;
+  }
