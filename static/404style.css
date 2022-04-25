@@ -120,7 +120,6 @@ body {
     font-size: inherit;
   }
 
- .sub-header {
-    font-size: inherit;
-    margin: 0;
+  .sub-header {
+    font-size: 13px;
  }
