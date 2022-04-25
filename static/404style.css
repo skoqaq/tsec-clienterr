@@ -121,5 +121,6 @@ body {
   }
 
  .sub-header {
-     
+    font-size: inherit;
+    margin: 0;
  }
