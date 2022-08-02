@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Sorry, something went wrong on our end, please try again">
+    <meta name="robots" content="noindex,follow">
+    <meta http-equiv="Cache-control" content="public">
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: Open Sans, sans-serif;
+        font-size: 10px
+      }
+
+      body {
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        background: #385469 no-repeat fixed 50%;
+        background-size: cover;
+        color: #fff;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        height: 100vh;
+        overflow-y: hidden;
+        padding: 80px 100px
+      }
+
+      aside:first-child {
+        text-align: center;
+        width: 40%
+      }
+
+      aside:last-child {
+        width: 60%
+      }
+
+      @media screen and (max-width:1200px) {
+        aside:first-child {
+          display: none
+        }
+
+        aside:last-child {
+          width: 100%
+        }
+      }
+
+      div.message {
+        background-color: #ededed;
+        border-radius: 1.8rem;
+        border: .1rem solid #707070;
+        padding: 1.5rem 2.5rem 2.5rem 7.1rem;
+        position: relative
+      }
+
+      div.message h1 {
+        color: #393939;
+        font-size: 5rem;
+        margin: 0 0 1rem
+      }
+
+      div.message h1:before {
+        background: #ea5b0c;
+        border-radius: 50%;
+        content: " ";
+        display: block;
+        height: 2.5rem;
+        left: 3rem;
+        position: absolute;
+        top: 3.5rem;
+        width: 2.5rem
+      }
+
+      div.message p {
+        color: #6d6d6d;
+        font-size: 2.2rem;
+        margin: 0
+      }
+
+      div.twitter {
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-top: 5rem;
+        text-align: center
+      }
+
+      div.twitter a {
+        color: #83cbf4;
+        text-decoration: underline
+      }
+
+      div.twitter img {
+        display: block;
+        margin-right: 1.7rem
+      }
+
+      div.twitter * {
+        font-size: 2.2rem;
+        font-weight: 600
+      }
+
+      div.cf {
+        border: .1rem solid #ededed;
+        border-radius: 1.8rem;
+        margin-top: 3rem;
+        padding: 2.5rem
+      }
+
+      div.cf * {
+        font-size: 1.2rem;
+        text-shadow: #000 0 0 .2rem
+      }
+
+      div.cf h1 {
+        font-size: 1.5rem
+      }
+    </style>
+    <style type="text/css">
+      #aircraft_img {
+        width: 559px;
+        height: 549px
+      }
+
+      #twitter_img {
+        width: 45px;
+        height: 37px;
+        margin-right: 1.7rem
+      }
+    </style>
+    <link rel="icon" type="image/svg+xml" href="https://templates.flightradar24.com/assets/img/favicon.svg" />
+    <title>Page error | Flightradar24</title>
+  </head>
+  <body>
+    <aside>
+      <div id="aircraft_img"></div>
+    </aside>
+    <aside>
+      <div class="message">
+        <h1>FR24 Canceled</h1>
+        <p>Something went wrong on our end, please try again.</p>
+      </div>
+      <div class="twitter">
+        <div>
+          <div id="twitter_img"></div>
+        </div>
+        <div>
+          <a href="https://twitter.com/flightradar24" target="_blank">Follow us</a> on Twitter for the latest updates.
+        </div>
+      </div>
+      <div class="cf">
+        <div class="cf-error-details cf-error-520">
+          <h1>Web server is returning an unknown error</h1>
+          <p>There is an unknown connection issue between Cloudflare and the origin web server. As a result, the web page can not be displayed.</p>
+          <ul>
+            <li>Ray ID: 73465832ff304673</li>
+            <li>Your IP address: 103.232.215.31</li>
+            <li>Error reference number: 520</li>
+            <li>Cloudflare Location: Singapore</li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+    <script type="text/javascript">
+      document.body.style.backgroundImage = "url('https://templates.flightradar24.com/assets/img/bg_timeout.jpg')", document.getElementById("aircraft_img").style.backgroundImage = "url('https://templates.flightradar24.com/assets/img/aircraft.png')", document.getElementById("twitter_img").style.backgroundImage = "url('https://templates.flightradar24.com/assets/img/twitter.png')";
+    </script>
+  </body>
+</html>
